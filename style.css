@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #09515af0;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+.container {
+    max-width: 600px;
+    width: 100%; 
+    background: linear-gradient(159deg,#e8e9ed,#03636c);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+textarea {
+    width: 100%; 
+    height: 150px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box; 
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background:linear-gradient(90deg,#d2dbdc,#03636c);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  
+}
+
+button:hover {
+    background-color: #bbbbbc;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+}
